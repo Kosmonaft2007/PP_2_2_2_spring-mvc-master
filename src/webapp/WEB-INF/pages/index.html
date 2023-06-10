@@ -14,20 +14,6 @@
 
 </div>
 
-<div>
-    <table border="1">
-        <tr>
-            <th>Brand</th>
-            <th>Model</th>
-            <th>Year</th>
-        </tr>
-        <tr th:each="car : ${cars}">
-            <td th:text="${car.getNameCar()}" >nameCar</td>
-            <td th:text="${car.getModelCar()}">modelCar</td>
-            <td th:text="${car.getYearCar()}">yearCar</td>
-        </tr>
-    </table>
 
-</div>
 </body>
 </html>
